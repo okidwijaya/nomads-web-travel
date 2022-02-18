@@ -7,13 +7,13 @@
     <div class="section-success d-flex align-items-center">
         <div class="col text-center">
             <img src="{{url('/frontend/image/sucess icon.png')}}" alt="">
-            <h1>Yay! Sucsess</h1>
+            <h1>Selamat Transaksi Sukses</h1>
             <p>
-                we've sent you email for trip Instruction
-                <br> please read it as well
+                Cek Email untuk Intruksi Lebih Lanjut
+                <br> Baca dengan Seksama
             </p>
             <a href="{{url('/')}}" class="btn btn-homepage mt-3 px-5">
-                Home Page
+                Home
             </a>
         </div>
     </div>

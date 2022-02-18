@@ -1,20 +1,21 @@
 @extends('layouts.app')
 
 @section('title')
-NOMADS
+Wisata Jateng
 @endsection
 
 @section('content')
   <!-- header -->
   <header class="text-center">
-    <h1>Explore the beatutiful world
-        <br> As Easy One Click
+    <h1>Eksplore Keindahan Jawa Tengah
+        <br> Hanya Dengan Satu Klik
     </h1>
     <p class="mt-3">
-        You will see beatutiful
-        <br> moment you never see before
+        Terpukau Oleh Keindahan 
+        <br> dan Moment Yang Belum Pernah Kamu Lihat
     </p>
-    <a href="{{url('')}}" class="btn btn-get-started px-4 mt-4">
+    <a href="{{url('login')}}" class="btn btn-get-started px-4 mt-4">
+        {{-- <a href="/login.html" class="btn btn-get-started px-4 mt-4"> --}}
         Get Started
     </a>
 </header>
@@ -25,11 +26,11 @@ NOMADS
         <section id="stats" class="section-stats row justify-content-center">
             <div class="col-3 col-md-2 stats-detail">
                 <h2>20K</h2>
-                <p>Members</p>
+                <p>Member</p>
             </div>
             <div class="col-3 col-md-2 stats-detail">
                 <h2>12</h2>
-                <p>Countries</p>
+                <p>Kota</p>
             </div>
             <div class="col-3 col-md-2 stats-detail">
                 <h2>3K</h2>
@@ -37,7 +38,7 @@ NOMADS
             </div>
             <div class="col-3 col-md-2 stats-detail">
                 <h2>72</h2>
-                <p>Travel</p>
+                <p>Travel agen</p>
             </div>
         </section>
     </section>
@@ -47,8 +48,8 @@ NOMADS
             <div class="row">
                 <div class="col text-center section-popular-heading">
                     <h2>Wisata popular</h2>
-                    <p>Something that you never try
-                        <br> before in this world
+                    <p>Rasakan Sensasi Berwisata
+                        <br> Yang Belum Pernah Anda Rasakan
                     </p>
                 </div>
             </div>
@@ -59,9 +60,9 @@ NOMADS
         <div class="container">
             <div class="section-popular-travel row justify-content-center">
                 <div class="col-sm-6 col-md-4 col-lg-3">
-                    <div class="card-travel text-center d-flex flex-column" style="background-image:url(/frontend/image/popular1.jpg);">
+                    <div class="card-travel text-center d-flex flex-column" style="background-image:url(/frontend/image/Candi-Borobudur-Magelang-736x491.jpg);">
                         <div class="travel-country">Indonesia</div>
-                        <div class="travel-location">DERATAN-BALI</div>
+                        <div class="travel-location">BOROBUDUR-MAGELANG</div>
                         <div class="travel-button mt-auto">
                             <a href="{{route('details')}}" class="btn btn-travel-details px-4">
                                 veiw details
@@ -70,9 +71,9 @@ NOMADS
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-3">
-                    <div class="card-travel text-center d-flex flex-column" style="background-image:url(/frontend/image/popular2.jpg);">
+                    <div class="card-travel text-center d-flex flex-column" style="background-image:url(/frontend/image/Candi-Prambanan-Klaten.jpg);">
                         <div class="travel-country">Indonesia</div>
-                        <div class="travel-location">BROMO, MALANG</div>
+                        <div class="travel-location">PRAMBANAN, KLATEN</div>
                         <div class="travel-button mt-auto">
                             <a href="{{route('details')}}" class="btn btn-travel-details px-4">
                                 veiw details
@@ -81,9 +82,9 @@ NOMADS
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-3">
-                    <div class="card-travel text-center d-flex flex-column" style="background-image:url(/frontend/image/popular3.jpg);">
+                    <div class="card-travel text-center d-flex flex-column" style="background-image:url(/frontend/image/lawang-sewu.jpg);">
                         <div class="travel-country">Indonesia</div>
-                        <div class="travel-location">NUSA PENIDA, BALI</div>
+                        <div class="travel-location">LAWANG SEWU, SEMARANG</div>
                         <div class="travel-button mt-auto">
                             <a href="{{route('details')}}" class="btn btn-travel-details px-4">
                                 veiw details
@@ -110,14 +111,15 @@ NOMADS
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <h2>Our Networks</h2>
+                    <h2>Partner</h2>
                     <p>
-                        Companies are trusted
-                        <br> more than just a trip
+                        Partner Kepercayaan
+                        <br> Lebih dari Sekedar Trip 
                     </p>
                 </div>
                 <div class="col-md-8 text-center">
-                    <img src="{{url('frontend/image/partners.png')}}" alt="logo partner" class="img-partner">
+                    {{-- <img src="{{url('frontend/image/partners.png')}}" alt="logo partner" class="img-partner"> --}}
+                    <img src="#" alt="logo partner" class="img-partner">
                 </div>
             </div>
         </div>
@@ -127,9 +129,9 @@ NOMADS
         <div class="container">
             <div class="row">
                 <div class="col text-center">
-                    <h2>They Are Loving Us</h2>
-                    <p>Many desktop publishing packages and web
-                        <br> page editors now use Lorem Ipsum</p>
+                    <h2>Ulasan Mereka Yang Mencintai Keindahan Jawa Tengah</h2>
+                    {{-- <p>Many desktop publishing packages and web
+                        <br> page editors now use Lorem Ipsum</p> --}}
                 </div>
             </div>
         </div>
@@ -148,7 +150,7 @@ NOMADS
                             </p>
                             <hr>
                             <p class="trip-to mt-2">
-                                Trip to Ubud
+                                Trip ke Nusakambangan
                             </p>
                         </div>
                     </div>
@@ -163,7 +165,7 @@ NOMADS
                             </p>
                             <hr>
                             <p class="trip-to mt-2">
-                                Trip to Nusa Penida
+                                Trip Ke Pramabanan
                             </p>
                         </div>
                     </div>
@@ -178,7 +180,7 @@ NOMADS
                             </p>
                             <hr>
                             <p class="trip-to mt-2">
-                                Trip to Karimun Jawa
+                                Trip Ke Karimun Jawa
                             </p>
                         </div>
                     </div>

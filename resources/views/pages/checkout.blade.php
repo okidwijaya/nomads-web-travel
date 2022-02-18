@@ -30,7 +30,7 @@
                 <div class="col-lg-8 pl-lg-0">
                     <div class="card card-details">
                         <h1>Who's going</h1>
-                        <p>Trip to Ubud, Bali, Indonesia</p>
+                        <p>Karimun, Jepara, Indonesia</p>
                         <div class="attendee">
                             <table class="table table-responsiev-sm text-center">
                                 <thead>
@@ -61,7 +61,7 @@
                                             <img src="{{url('frontend/image/testi2.png')}}" height="60" alt="">
                                         </td>
                                         <td class="align-middle">Siswanto</td>
-                                        <td class="align-middle">SG</td>
+                                        <td class="align-middle">Jakarta</td>
                                         <td class="align-middle">30 Days</td>
                                         <td class="align-middle">Active</td>
                                         <td class="align-middle">
@@ -74,9 +74,9 @@
                             </table>
                         </div>
                         <div class="members mt-3">
-                            <h2>Add Memeber</h2>
+                            <h2>Tambah Member</h2>
                             <form action="" class="form-inline">
-                                <label for="inputUsername" class="sr-only">Name</label>
+                                <label for="inputUsername" class="sr-only">Nama</label>
                                 <input type="text" class="form-control mb-2 mr-sm-2" id="inputUsername" placeholder="username">
 
 
@@ -91,36 +91,36 @@
                                 <div class="input-group mb-2 mr-sm-2">
                                     <input type="text" class="form-control datepicker" id="doePassport" placeholder="DOE Passport">
                                 </div>
-                                <button type="submit" class="btn btn-add-now mb-2 px-4">Add Now</button>
+                                <button type="submit" class="btn btn-add-now mb-2 px-4">Tambah Sekarang</button>
                             </form>
                             <h3 class="mt-2 mb-0">
                                 Note
                             </h3>
                             <p class="disclaimer mb-0">
-                                You are only nable to invite that has registered in Nomads
+                                Kamu dapat menambahkan orang yang memiliki akun
                             </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="card card-details card-right">
-                        <h2>Checkout Information</h2>
+                        <h2>Checkout Informasi</h2>
                         <table class="trip-information">
                             <tr>
-                                <th widht="50%">Members</th>
-                                <td widht="50%" class="text-right">2 person</td>
+                                <th widht="50%">Member</th>
+                                <td widht="50%" class="text-right">2 orang</td>
                             </tr>
                             <tr>
                                 <th widht="50%">Additional VISA</th>
                                 <td widht="50%" class="text-right">$190,00</td>
                             </tr>
                             <tr>
-                                <th widht="50%">Trip Prce</th>
-                                <td widht="50%" class="text-right">$80,00 /person</td>
+                                <th widht="50%">Harga Trip</th>
+                                <td widht="50%" class="text-right">$80,00 /orang</td>
                             </tr>
                             <tr>
                                 <th widht="50%">Sub Total</th>
-                                <td widht="50%" class="text-right">$280,00 /person</td>
+                                <td widht="50%" class="text-right">$280,00 /orang</td>
                             </tr>
                             <tr>
                                 <th widht="50%">Total(+Unique)</th>
@@ -131,8 +131,8 @@
                             </tr>
                         </table>
                         <hr />
-                        <h2>Payment Instruction</h2>
-                        <p class="payment-instruction">Please COmplete your Payment </p>
+                        <h2>Intruksi Pembayaran</h2>
+                        <p class="payment-instruction">Selesaikan Pembayaran </p>
                         <div class="bank">
                             <div class="bank-item pb-3">
                                 <img src="{{url('frontend/image/icon-bank.png')}}"class="bank-image" alt="">
@@ -160,11 +160,11 @@
                         </div>
                     </div>
                     <div class="join-container">
-                        <a href="{{ route('checkout-success') }}" class="btn btn-block btn-join-now mt-3 py-2">I Have my payment</a>
+                        <a href="{{ route('checkout-success') }}" class="btn btn-block btn-join-now mt-3 py-2">Konfirmasi Pembayaran</a>
                     </div>
                     <div class="text-center mt-3">
                         <a href="{{ route('home') }}" class="text-muted">
-                            cancel booking
+                            batalkan pemesanan
                         </a>
                     </div>
                 </div>

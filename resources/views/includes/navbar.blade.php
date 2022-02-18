@@ -2,7 +2,7 @@
   <div class="container">
     <nav class="row navbar navbar-expand-lg navbar-light bg-white">
         <a href="#" class="navbar-brand">
-            <img src="/frontend/image/logo.png" alt="logo nomads">
+            <img src="/frontend/image/Desktop - 1.png" alt="logo nomads">
         </a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navb">
             <span class="navbar-toggler-icon"></span>
@@ -21,9 +21,9 @@
                     services
                     </a>
                     <div class="dropdown-menu">
-                        <a href="#" class="dropdown-item">link</a>
-                        <a href="#" class="dropdown-item">link</a>
-                        <a href="#" class="dropdown-item">link</a>
+                        <a href="#" class="dropdown-item">Promo</a>
+                        <a href="#" class="dropdown-item">Galeri Wisata</a>
+                        <a href="#" class="dropdown-item">Paket Trip</a>
                     </div>
                 </li>
                 <li class="nav-item mx-md-2">
@@ -32,7 +32,7 @@
             </ul>
             <!-- mobile button -->
             <form class="form-inline d-sm-block d-md-none">
-                <button class="btn btn-login my-2 my-sm-0">
+                <button onclick="window.location='{{url('login')}}'" class="btn btn-login my-2 my-sm-0">
                 Masuk
                 </button>
             </form>

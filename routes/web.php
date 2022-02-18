@@ -25,6 +25,9 @@ Route::get('/checkout', 'CheckoutController@index')
 Route::get('/checkout/success', 'CheckoutController@success')
     ->name('checkout-success');
 
+Route::get('/login', 'LoginController@index')
+    ->name('login');
+
 
 Route::prefix('admin')
     ->namespace('Admin')
